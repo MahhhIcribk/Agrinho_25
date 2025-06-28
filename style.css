@@ -1,0 +1,39 @@
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F8F8; /* Cor de fundo geral */
+}
+/* Estilo personalizado para a cor roxa/azul escura */
+.bg-dark-purple {
+    background-color: #3C3E5A; /* Cor base para seções escuras */
+}
+.text-dark-purple {
+    color: #3C3E5A;
+}
+.border-dark-purple {
+    border-color: #3C3E5A;
+}
+.text-light-purple {
+    color: #6D6E97; /* Um tom mais claro se necessário */
+}
+.bg-light-beige {
+    background-color: #F8F8F8; /* Cor de fundo para seções claras */
+}
+.bg-muted-beige {
+    background-color: #EFEFEF; /* Um bege mais sutil para cartões */
+}
+.hover-darken:hover {
+    filter: brightness(0.9);
+    transition: filter 0.3s ease-in-out;
+}
+.hero-background {
+    background-image: url('https://placehold.co/1200x600/3C3E5A/FFFFFF?text=Jardim+Perfeito'); /* Placeholder para imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+.green-leaves-background {
+    background-image: url('https://placehold.co/1200x600/1E3A2F/FFFFFF?text=Folhas+Verdes'); /* Placeholder para imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
